@@ -3,4 +3,5 @@ CREATE TABLE `user` (
   `login` text,
   `password_hash` text,
   `recovery_token` text
+  `auth_token` text
 );
