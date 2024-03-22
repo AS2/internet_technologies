@@ -1,0 +1,9 @@
+type: object
+properties:
+  code:
+    description: Код ошибки приложения
+    type: integer
+    format: int64
+example:
+  code: 100
+  message: Внутренняя ошибка сервера

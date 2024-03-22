@@ -1,0 +1,24 @@
+openapi: "3.0.2"
+info:
+  title: API для лабораторных по курсу "Интернет-технологии"
+  version: "1.0"
+
+tags:
+  - name: Авторизация
+    description: Методы авторизации пользователей
+  - name: Восстановление пароля
+    description: Методы сценария восстановления пароля пользователя
+
+paths:
+  /sign-up:
+    $ref: "paths/sign_up.yml"
+  /log-in:
+    $ref: "paths/log_in.yml"
+  /log-out:
+    $ref: "paths/log_out.yml"
+  /check_recovery_token:
+    $ref: "paths/check_recovery_token.yml"
+  /change-password-mail:
+    $ref: "paths/change_password_mail.yml"
+  /change-password:
+    $ref: "paths/change_password.yml"

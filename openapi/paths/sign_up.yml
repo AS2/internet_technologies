@@ -1,0 +1,43 @@
+post:
+  description: Зарегистрировать пользователя
+  tags:
+    - Авторизация
+  requestBody:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            email:
+              description: Адрес электронной почты пользователя
+              type: string
+              format: email
+            password:
+              description: Пароль пользователя
+              type: string
+              format: password
+          example:
+            email: user@mail.com
+            password: password
+  responses:
+    "200":
+      description: OK
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              token:
+                description: Токен для последующей авторизации
+                type: string
+                format: byte
+            example:
+              token: abcdefg1234567890abcdefg1234567890qwertyqwerty
+    "400":
+      description: Ошибка
+      content:
+        application/json:
+          schema:
+            $ref: "common/error.yml"
+    "401":
+      description: Ошибка авторизации
