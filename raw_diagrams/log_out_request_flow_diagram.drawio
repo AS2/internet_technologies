@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T20:51:44.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="m4us_xa9UGAJ2JAbPF8X" version="23.1.8" type="google">
+<mxfile host="app.diagrams.net" modified="2024-03-23T07:07:29.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="HO5P4YX356JgqQX8gI9I" version="24.0.8" type="google">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
         <mxCell id="wwS38SLD4BhZDNM-s97V-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="wwS38SLD4BhZDNM-s97V-5">
           <mxGeometry x="5" y="60" width="10" height="900" as="geometry" />
         </mxCell>
-        <mxCell id="wwS38SLD4BhZDNM-s97V-38" value="HTTP запрос API" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" target="WZIY-89Z3sl6ZoVQuBjr-1">
+        <mxCell id="wwS38SLD4BhZDNM-s97V-38" value="HTTP запрос API&lt;div&gt;&quot;Выйти из системы&quot;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" target="WZIY-89Z3sl6ZoVQuBjr-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="295" y="489" as="sourcePoint" />
           </mxGeometry>
